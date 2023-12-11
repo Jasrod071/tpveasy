@@ -1,0 +1,203 @@
+body{
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "footer";
+    grid-template-rows: auto auto 1fr auto;
+}
+
+a{
+  font-weight:italic ;
+  color:darkblue;
+  text-align: center;
+  font-size: 15px;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color:white;
+    text-decoration: none;
+}
+.menu-horizontal > li:hover {
+    background-color:red;
+}
+.menu-vertical{
+position: absolute;
+display: none;
+list-style: none;
+width: 200px;
+background-color: rgba(0, 0, 0, .5);
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover {
+    background-color: black;
+}
+.menu-vertical li a{
+    display:block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+h1{ /*ESTO ES PARA LOS TITULOS*/
+    font-weight:bold ;
+    color:lightseagreen;
+    text-align: center;
+    font-size: 25px;
+}
+p{ /*ESTO ES PARA LOS PARRAFOS*/
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: black;
+}
+img{  /*ESTO ES PARA LA CONFIGURACIÓN BÁSICA DE IMAGENES*/
+    padding: 10px; 
+    max-width: 100px;
+    max-height: 100px;
+  }
+#nave{  /*ESTO ES PARA LA CONFIGURACIÓN DE LA IMAGEN DE LA BARRA DE NAVEGACIÓN*/
+    max-width: 30px;
+    max-height: 30px;
+    padding: 0px; 
+}
+#header{  /*ESTO ES PARA LA IMAGEN DE LA CABECERA*/
+    padding: 0px; 
+    max-width: 300px;
+    max-height: 300px;
+}
+dt {
+    font-weight:bold ;
+    color:rgba(32, 178, 171, 0.658);
+    text-align: left;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccionizda {
+    text-align: left;
+}
+  
+  .secciondcha {
+    text-align: right;
+}
+img{  /*ESTO ES PARA LA CONFIGURACIÓN BÁSICA DE IMAGENES*/
+    padding: 10px; 
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+#condiciones {
+    font-weight:bold ;
+    color:rgb(0, 0, 0);
+    text-align: left;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#condicionantes {
+  font-weight:bold ;
+  color:rgb(105, 105, 114);
+  text-align: left;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 8px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #b1abab;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4c89af;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+  
+  span {
+    color: red;
+    margin-left: 8px;
+  }
+  
+  #politica {
+    margin-top: 10px;
+  }
+
+  .ightspeedhq {
+    border-collapse: collapse;
+  }
+  
+  .ightspeedhq td {
+    background-color: white;
+    border: none;
+  }
+#num {
+    font-weight:normal ;
+    color:rgba(32, 178, 171, 0.658);
+    text-align: left;
+    font-size: 20px;
+}
+.tpv {
+  color: #238968;
+  font-weight:bold ;
+    text-align: left;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+}
+.easy{
+  color: #1395a5;
+  font-weight:bold ;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+}
+li{
+  font-weight:normal ;
+    color: black;
+    text-align: left;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#prueba ol li{
+  color: rgba(32, 178, 171, 0.658);
+  font-weight: bold;
+}
